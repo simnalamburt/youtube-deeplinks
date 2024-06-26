@@ -14,6 +14,7 @@ youtube-deeplinks
 - [Channel (Channel ID)](youtube://channel/UCsJ6RuBiTVWRX156FVbeaGg)
 - [Channel (username)](youtube://user/savethechildrenkr)
 - [My channel](youtube://profile)
+- ...
 
 <!-- 
 If you replace the "https://www.youtube.com/" part
@@ -23,3 +24,10 @@ of a web URL with "youtube://", it will usually work.
 ### Youtube Music
 
 - [Open Youtube Music root page](youtubemusic://)
+- [Listen to a song](youtubemusic://qbgqlSWTt2o)
+- [Search](youtubemusic://search?q=everybody+wants+to+rule+the+world)
+- ...
+
+### Test random deeplinks
+- [youtube://shorts/camera](youtube://shorts/camera)
+- [youtube://shorts/uploader](youtube://shorts/uploader)
