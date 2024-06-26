@@ -29,5 +29,18 @@ of a web URL with "youtube://", it will usually work.
 - ...
 
 ### Test random deeplinks
+
+<input id=input value="youtube://shorts" placeholder="Type your deeplink in here">
+
+Link: <a id=link></a>
+
+<script type=module>
+const sync = _ => link.href = link.innerText = input.value
+sync()
+input.addEventListener('input', sync)
+</script>
+
+Example:
 - [youtube://shorts/camera](youtube://shorts/camera)
 - [youtube://shorts/uploader](youtube://shorts/uploader)
+- ...
